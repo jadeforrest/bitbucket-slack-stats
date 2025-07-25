@@ -1,0 +1,15 @@
+{
+  "name": "bitbucket-slack-stats",
+  "version": "1.0.0",
+  "description": "Bitbucket PR statistics collector for Slack integration",
+  "main": "bitbucket-stats.js",
+  "scripts": {
+    "start": "node bitbucket-stats.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
